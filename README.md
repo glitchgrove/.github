@@ -1,25 +1,37 @@
-# 👾 glitchgrove
+# 🛠️ .github — glitchgrove Org Configs
 
-Welcome to **glitchgrove**, a sandbox GitHub organization used for testing and developing GitHub Apps, Actions, and Bots.
+This repository contains **shared GitHub configuration files** and metadata for the [`glitchgrove`](https://github.com/glitchgrove) organization. It is publicly visible and intended to support bot/app testing, GitHub Actions, and org-level automation experiments.
 
-### 🌱 About
+---
 
-glitchgrove is not a production org — it's a testing ground for:
+## 📁 Contents
 
-- GitHub App development
-- GitHub Actions workflows
-- Custom bots and automation
-- Repository-level integration scenarios
+- `.github/profile/README.md`  
+  → Public-facing org profile shown on [glitchgrove’s homepage](https://github.com/glitchgrove)
 
-If you're here because one of our bots interacted with your PR or issue — it's all in the name of learning and improvement!
+---
 
-### 🧪 Current Focus Areas
+## 🔍 Purpose
 
-- ✅ GitHub App lifecycle testing (auth, installation, webhooks)
-- ⚙️ Safe Settings & repo hardening experiments
-- 🧠 LLM + GitHub API integrations
-- 🚀 CI/CD and automation workflows
+This repository exists to:
 
-### 📢 Note
+- Centralize shared GitHub metadata and automation
+- Control public visibility of the org via `profile/README.md`
+- Serve as a baseline for GitHub App and Action testing
 
-Some repositories may be experimental or incomplete. Contributions are usually limited to collaborators, but feel free to explore!
+It may evolve as bots and test scenarios change.
+
+---
+
+## 🔐 Private Org Docs
+
+For internal guidelines, cleanup policies, and testing rules, see our private configuration repo:
+
+👉 [`glitchgrove/.github-private`](https://github.com/glitchgrove/.github-private) *(org members only)*
+
+---
+
+## 🙋 Questions?
+
+Open an issue in this repo or contact an org admin.
+
